@@ -1,0 +1,58 @@
+body {
+  margin: 0;
+}
+
+main {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  text-align: center;
+  align-items: flex-start;
+  flex-direction: column;
+}
+
+h1,
+p {
+  color: #304d63;
+  margin: 0;
+}
+
+#video {
+  width: 100%;
+  height: 730px;
+  background-color: #8fb9aa;
+  top: 0;
+}
+
+.breadcrumbs {
+  width: 100%;
+  height: 52px;
+  background-color: #b9958f;
+}
+
+.content {
+  width: 100%;
+  height: 323px;
+  background-color: #a380b3;
+}
+
+.cards {
+  width: 100%;
+  height: 1099px;
+  background-color: #b39f80;
+}
+
+#parentScrollDiv {
+  height: 100%;
+  width: 100%;
+}
+
+.scrollToContinue {
+  height: 100vh;
+  width: 100%;
+  position: sticky;
+  top: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}

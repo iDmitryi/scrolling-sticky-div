@@ -1,0 +1,9 @@
+.scrollableDiv {
+  width: 90%;
+  height: 483px;
+  margin: 0 5%;
+}
+
+.scrollableDiv.firstScrollableDiv {
+  margin-top: -100vh;
+}
